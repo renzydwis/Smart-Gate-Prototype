@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+#preloader{
+  position : fixed;
+  width: 35%;
+  height: 35%;
+  z-index: 999;
+  top: 35%;
+  left: 23%;
+  background: url(https://cutewallpaper.org/21/loading-gif-transparent-background/UCSUR-PittCSUR-University-of-Pittsburgh-Research-Center.gif) 50% no-repeat #fff;
+  
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background:rgb(26, 26, 63); 
+  color: white;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 24em;
+  transition: background 250ms ease-in;
+  
+}
+
+.nav__list {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content img{
+  border-radius: 25px;
+  width : auto;
+}
+
+.content iframe{
+  width : auto;
+  border-radius: 25px;
+}
+
+.section-footer {
+    background: rgb(26, 26, 63);
+    background-blend-mode: multiply;
+    color: white;
+    padding: 0.3rem 0;
+}
+  
+  .section-footer .container {
+    font-size: 0.8rem;
+    text-align: center;
+}
+  

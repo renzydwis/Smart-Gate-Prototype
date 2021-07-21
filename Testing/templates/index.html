@@ -1,0 +1,25 @@
+{% extends "home.html" %}
+
+{% block image %}
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+<h3></h3>
+<div class="content" style="text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 128px;
+    margin-bottom: 5px">
+    <h1></h1>
+    <table cellpadding="2" style="display: inline-block">
+     <tr><td rowspan="2"><img src={{ url_for('video_feed') }} width="850" height="500" alt=".LIVE"></td>
+        <td><iframe width="450" height="260" style="border: 1px solid #333;" src="https://thingspeak.com/channels/1330707/widgets/295532"></iframe></td>
+    </tr>
+    <tr><td><iframe width="450" height="260" style="border: 1px solid #333;" src="https://thingspeak.com/channels/1330707/widgets/291249"></iframe></td></tr>
+    <tr><td><h2 style="font-size: medium;">Silakan mendekatkan diri ke sensor apabila lampu merah menyala </h2>
+    </td></tr>
+    </table>
+</div>
+
+{% endblock %}
+
+
